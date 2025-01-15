@@ -19,10 +19,12 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
               <div className="relative flex-shrink-0">
-                <img 
+                <image 
                   src="/api/placeholder/300/400"
                   alt="이희창 강사 프로필" 
-                  className="rounded-lg shadow-lg object-cover w-72 h-96"
+                  width={300}
+                  height={400}
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
               <div className="flex-grow">
@@ -31,7 +33,7 @@ export default function Home() {
                     이희창 강사
                   </h1>
                   <p className="text-lg text-gray-600 mb-6">
-                    "학생의 잠재력을 발견하고 성장을 이끄는 전문 입시 컨설턴트"
+                  &ldquo;학생의 잠재력을 발견하고 성장을 이끄는 전문 입시 컨설턴트&rdquo;
                   </p>
                   <div className="bg-gray-50 rounded-lg p-6">
                     <dl className="space-y-4">
